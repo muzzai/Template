@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "muzzai",
+  "classifications": [ "Common", "Web" ],
+  "identity": "UnexpectedTemplate",
+  "name": "DDD template for unexpected team",
+  "shortName": "unexpectedTemplate",
+  "sourceName": "Template",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
