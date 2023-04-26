@@ -4,6 +4,24 @@
 ### не забудьте удалить лишние зависимости
 #### просьба по мере освоения информации из этого файла заменять его содержимое на актуальнуб информацию
 
+
+## Инструкция по использованию
+
+* клонируете проект себе
+* переходите в папку с проектом и выполняете dotnet new install ./
+* теперь ваша IDE будет видеть этот темплейт под названием DDD template for unexpected team
+* создаёте проект из этого темплейта
+* ваша IDE запросит креды для Nuget feed'а в котором лежит Shared Kernel, поэтому, чтобы всё заработало нужно сделать токен
+
+## Сделать токен в гитхабе
+
+* тыкаете в свой аватар > Settings > Developer Settings
+* тыкаете Personal access tokens > Tokens (classic) > Generate new token > Generate new token classic
+* даёте пермишен write:packages и генерируете токен 
+* когда ваша IDE запросит креды от nuget feed'a, даёте свой логин GitHub'a как username, а токен вмест пароля
+
+
+
 A starting point for Clean Architecture with ASP.NET Core. [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) is just the latest in a series of names for the same loosely-coupled, dependency-inverted architecture. You will also find it named [hexagonal](http://alistair.cockburn.us/Hexagonal+architecture), [ports-and-adapters](http://www.dossier-andreas.net/software_architecture/ports_and_adapters.html), or [onion architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/).
 
 This architecture is used in the [DDD Fundamentals course](https://www.pluralsight.com/courses/fundamentals-domain-driven-design) by [Steve Smith](https://ardalis.com) and [Julie Lerman](https://thedatafarm.com/). Contact Steve's company, [NimblePros](https://nimblepros.com/), for Clean Architecture or DDD training and/or implementation assistance for your team.
