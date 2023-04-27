@@ -1,4 +1,5 @@
-﻿using Template.Core.ProjectAggregate;
+﻿/*
+using Template.Core.ProjectAggregate;
 using Template.Core.ProjectAggregate.Specifications;
 
 using Template.Web.ViewModels;
@@ -39,3 +40,4 @@ public class ProjectController : Controller
         return View(dto);
     }
 }
+*/

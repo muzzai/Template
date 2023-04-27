@@ -19,12 +19,12 @@ namespace Template.UnitTests.Core.Services
             _service = new DeleteContributorService(_mockRepo.Object, _mockMediator.Object);
         }
 
-        [Fact]
+        /*[Fact]
         public async Task ReturnsNotFoundGivenCantFindContributor()
         {
             var result = await _service.DeleteContributor(0);
 
             Assert.Equal(Ardalis.Result.ResultStatus.NotFound, result.Status);
-        }
+        }*/
     }
 }

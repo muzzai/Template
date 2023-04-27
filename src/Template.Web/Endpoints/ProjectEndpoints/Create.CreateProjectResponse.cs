@@ -2,12 +2,12 @@
 
 public class CreateProjectResponse
 {
-    public CreateProjectResponse(int id, string name)
+    public CreateProjectResponse(Guid id, string name)
     {
         Id = id;
         Name = name;
     }
 
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string Name { get; set; }
 }

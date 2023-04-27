@@ -5,7 +5,7 @@ namespace Template.Core.ProjectAggregate.Specifications;
 
 public class ContributorByIdSpec : Specification<Contributor>, ISingleResultSpecification
 {
-    public ContributorByIdSpec(int contributorId)
+    public ContributorByIdSpec(Guid contributorId)
     {
         Query
             .Where(contributor => contributor.Id == contributorId);

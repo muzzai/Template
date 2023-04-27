@@ -1,3 +1,3 @@
 ﻿namespace Template.Web.Endpoints.ProjectEndpoints;
 
-public record ToDoItemRecord(int Id, string Title, string Description, bool IsDone);
+public record ToDoItemRecord(Guid Id, string Title, string Description, bool IsDone);

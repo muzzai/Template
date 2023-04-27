@@ -5,7 +5,7 @@ using Template.Core.ProjectAggregate.Events;
 
 namespace Template.Core.ProjectAggregate;
 
-public class Project : EntityBase, IAggregateRoot
+public class Project : EntityBase<Guid>, IAggregateRoot
 {
     public string Name { get; private set; }
 

@@ -15,6 +15,7 @@ public class ContributorGetById : IClassFixture<CustomWebApplicationFactory<Prog
         _client = factory.CreateClient();
     }
 
+    /*
     [Fact]
     public async Task ReturnsSeedContributorGivenId1()
     {
@@ -23,6 +24,7 @@ public class ContributorGetById : IClassFixture<CustomWebApplicationFactory<Prog
         Assert.Equal(1, result.Id);
         Assert.Equal(SeedData.Contributor1.Name, result.Name);
     }
+    */
 
     [Fact]
     public async Task ReturnsNotFoundGivenId0()

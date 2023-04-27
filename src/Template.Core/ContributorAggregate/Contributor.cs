@@ -4,7 +4,7 @@ using SharedKernel.Interfaces;
 
 namespace Template.Core.ContributorAggregate;
 
-public class Contributor : EntityBase, IAggregateRoot
+public class Contributor : EntityBase<Guid>, IAggregateRoot
 {
     public string Name { get; private set; }
 

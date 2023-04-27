@@ -2,12 +2,12 @@ namespace Template.Web.Endpoints.ContributorEndpoints;
 
 public class CreateContributorResponse
 {
-    public CreateContributorResponse(int id, string name)
+    public CreateContributorResponse(Guid id, string name)
     {
         Id = id;
         Name = name;
     }
 
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string Name { get; set; }
 }
